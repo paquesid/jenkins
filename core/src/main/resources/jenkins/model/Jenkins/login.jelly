@@ -53,7 +53,7 @@ THE SOFTWARE.
     <!-- real deal starting here -->
     <html lang="${request2.getLocale().toLanguageTag()}">
       <head data-rooturl="${rootURL}" data-resurl="${resURL}" data-imagesurl="${imagesURL}" resURL="${resURL}">
-        <title>${%signIn} - Jenkins</title>
+        <title>${%signIn} - Paques Ops</title>
         <!-- we do not want bots on this page -->
         <meta name="ROBOTS" content="NOFOLLOW" />
         <!-- mobile friendly layout -->
@@ -70,7 +70,7 @@ THE SOFTWARE.
             <st:include it="${simpleDecorator}" page="simple-branding.jelly" />
             <main id="main-panel" class="app-sign-in-register__content">
               <div class="app-sign-in-register__content-inner">
-                <h1>${%Sign in to Jenkins}</h1>
+                <h1>Sign in to Paques Ops</h1>
 
                 <st:include it="${simpleDecorator}" page="simple-header.jelly" />
 

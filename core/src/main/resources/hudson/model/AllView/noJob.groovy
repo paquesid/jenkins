@@ -19,7 +19,7 @@ div {
     div(class: "empty-state-block") {
         if (isTopLevelAllView) {
             if (canSetUpDistributedBuilds || hasItemCreatePermission) {
-                h1(_("Welcome to Jenkins!"))
+                h1(_("Welcome to Paques Ops!"))
 
                 p(_("noJobDescription"))
                 

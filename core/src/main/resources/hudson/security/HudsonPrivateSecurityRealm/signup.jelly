@@ -42,7 +42,7 @@ THE SOFTWARE.
     <j:set var="simpleDecorators" value="${h.simplePageDecorators}"/>
     <html lang="${request2.getLocale().toLanguageTag()}">
       <head data-rooturl="${rootURL}" data-resurl="${resURL}" data-imagesurl="${imagesURL}" resURL="${resURL}">
-        <title>${%Register} - Jenkins</title>
+        <title>${%Register} - Paques Ops</title>
         <!-- we do not want bots on this page -->
         <meta name="ROBOTS" content="NOFOLLOW"/>
         <!-- mobile friendly layout -->
@@ -55,7 +55,7 @@ THE SOFTWARE.
         <st:include it="${simpleDecorator}" page="simple-branding.jelly" />
         <main id="main-panel" class="app-sign-in-register__content">
           <div class="app-sign-in-register__content-inner">
-            <h1>${%Register}</h1>
+            <h1>Sign in to Paques Ops</h1>
 
             <st:include it="${simpleDecorator}" page="simple-header.jelly" />
 
