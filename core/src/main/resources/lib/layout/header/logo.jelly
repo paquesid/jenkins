@@ -4,7 +4,6 @@
     <div class="logo">
       <a id="jenkins-home-link" href="${rootURL}/">
         <img id="jenkins-head-icon" src="${imagesURL}/svgs/logo.svg" alt="[${logoAlt}]" />
-        <img id="jenkins-name-icon" src="${imagesURL}/title.svg" alt="${title}" width="139" height="34" />
       </a>
     </div>
 

@@ -41,7 +41,7 @@ THE SOFTWARE.
 
       <t:editableDescription permission="${app.ADMINISTER}" hideButton="true"/>
       <div>
-        ${%Jenkins User ID}: ${it.id}
+        Paques Ops User ID: ${it.id}
       </div>
       <!-- give properties a chance to contribute summary item -->
       <j:forEach var="p" items="${it.allProperties}">
